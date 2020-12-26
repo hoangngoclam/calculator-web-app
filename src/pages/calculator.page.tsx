@@ -23,6 +23,9 @@ export default function CalculatorPage() {
             } else if (key === '.') {
                 onDotButtonClick();
                 return;
+            } else if (key === 'Delete') {
+                onClearBtnClick();
+                return;
             } else if (CCalculator.isOperationKeyInput(key)) {
                 onOperationClick(key);
                 return;

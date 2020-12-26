@@ -19,7 +19,7 @@ export default class CCalculator {
         }
     }
     static isAllowKeyInput(text: string): boolean {
-        const regex = /\d|\+|\-|\*|\/|\.|Enter|Backspace/gm;
+        const regex = /\d|\+|\-|\*|\/|\.|Enter|Backspace|Delete/gm;
         return regex.test(text);
     }
     static isOperationKeyInput(text: string): boolean {
