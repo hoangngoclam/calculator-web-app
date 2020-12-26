@@ -6,7 +6,8 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The website will be like this
-![enter image description here](https://www.dropbox.com/s/02gh1bjsfbmcesz/calculatorAppLayout.jpg?raw=1).\
+![App's layout](https://www.dropbox.com/s/02gh1bjsfbmcesz/calculatorAppLayout.jpg?raw=1)
+
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 ### `yarn build`
